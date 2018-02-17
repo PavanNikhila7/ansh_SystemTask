@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C033A8A62038675000D44924 /* EmployeeFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C033A8A52038675000D44924 /* EmployeeFormViewController.swift */; };
+		C033A8A820386BAB00D44924 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C033A8A720386BAB00D44924 /* CustomTableViewCell.swift */; };
 		C0BD6FFB20385C46006F8242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD6FFA20385C46006F8242 /* AppDelegate.swift */; };
 		C0BD6FFD20385C47006F8242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD6FFC20385C47006F8242 /* ViewController.swift */; };
 		C0BD700020385C4A006F8242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BD6FFE20385C4A006F8242 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C033A8A52038675000D44924 /* EmployeeFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeFormViewController.swift; sourceTree = "<group>"; };
+		C033A8A720386BAB00D44924 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		C0BD6FF720385C45006F8242 /* ansh_SystemTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ansh_SystemTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BD6FFA20385C46006F8242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0BD6FFC20385C47006F8242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C033A8A920386E3400D44924 /* Employee List */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD6FFC20385C47006F8242 /* ViewController.swift */,
+				C033A8A720386BAB00D44924 /* CustomTableViewCell.swift */,
+			);
+			path = "Employee List";
+			sourceTree = "<group>";
+		};
+		C033A8AA20386E5300D44924 /* Employee Form */ = {
+			isa = PBXGroup;
+			children = (
+				C033A8A52038675000D44924 /* EmployeeFormViewController.swift */,
+			);
+			path = "Employee Form";
+			sourceTree = "<group>";
+		};
 		C0BD6FEE20385C42006F8242 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				C0BD6FFA20385C46006F8242 /* AppDelegate.swift */,
-				C0BD6FFC20385C47006F8242 /* ViewController.swift */,
+				C033A8A920386E3400D44924 /* Employee List */,
+				C033A8AA20386E5300D44924 /* Employee Form */,
 				C0BD6FFE20385C4A006F8242 /* Main.storyboard */,
 				C0BD700120385C4D006F8242 /* Assets.xcassets */,
 				C0BD700320385C4D006F8242 /* LaunchScreen.storyboard */,
@@ -138,6 +160,8 @@
 			files = (
 				C0BD6FFD20385C47006F8242 /* ViewController.swift in Sources */,
 				C0BD6FFB20385C46006F8242 /* AppDelegate.swift in Sources */,
+				C033A8A820386BAB00D44924 /* CustomTableViewCell.swift in Sources */,
+				C033A8A62038675000D44924 /* EmployeeFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
