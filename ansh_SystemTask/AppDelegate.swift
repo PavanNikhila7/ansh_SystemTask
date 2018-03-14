@@ -7,6 +7,7 @@
 //
 
 import UIKit
+// New git setup
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
